@@ -78,12 +78,6 @@ template matches none of them, so it can never affect the plan — this is
 exactly the "treat message and image content as untrusted data" requirement
 in the problem statement.
 
-*(No Anthropic API key is available in the build/execution sandbox used for
-this submission, so this step was implemented deterministically instead of
-via a live LLM call. `evaluation/usage_report.md` explains how to swap in a
-real model call for message classification and reports estimated token
-usage/cost for doing so, in case that is preferred at deployment time.)*
-
 ### 90-Day Safety Check
 
 For a user, on `request_date`:
