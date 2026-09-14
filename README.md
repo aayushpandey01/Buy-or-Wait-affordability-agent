@@ -1,4 +1,4 @@
-# Buy or Wait? - Affordability Agent
+# Buy or Wait? - Affordability Agent (HackerRank Orchestrate September edition)
 
 A deterministic financial-forecasting agent that answers, for every request in
 `dataset/requests.csv`: **pay in full, pay partially, use installments, wait,
