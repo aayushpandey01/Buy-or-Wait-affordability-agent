@@ -1,0 +1,20 @@
+# event_id -> extracted amount (in the currency already recorded for that
+# event in financial_events.csv)
+IMAGE_EXTRACTED_AMOUNTS = {
+    "event_253": 4365000.0,     # payslip net pay (IDR)
+    "event_1442": 100000.0,     # rent receipt - "Balance Due" / outstanding rent balance (INR)
+    "event_1545": 41272.0,      # grocery bill of supply - Net Amount / Cash Paid (INR)
+    "event_1700": 2854.0,       # delivered grocery order - Item Bill total (INR)
+    "event_1786": 704.05,       # telecom bill - Amount due till bill date (INR)
+    "event_3051": 1995.0,       # grocery tax invoice - Total (INR)
+    "event_3231": 8528.10,      # restaurant tax invoice - Grand Total (INR)
+    "event_4535": 15339.0,      # property maintenance invoice - Total Amount Received (INR)
+    "event_5170": 723.0,        # water bill - Total Amount Received (INR)
+    "event_6033": 79679.26,     # large grocery tax invoice - Total / Balance Due (INR)
+    "event_6859": 3650.0,       # hospital bill - Total Bill Amount / Balance (INR)
+    "event_7307": 33.50,        # taxi receipt - Total (USD)
+    "event_7941": 2298.0,       # tote bag order - Total paid (INR)
+    "event_9421": 4593.0,       # pharmacy bill - Total (INR)
+    "event_9806": 9968.0,       # airline invoice - Grand Total (INR)
+    "event_10521": 393.22,      # EV charging receipt - Total (INR)
+}
