@@ -2,7 +2,7 @@
 
 A deterministic financial-forecasting agent that answers, for every request in
 `dataset/requests.csv`: **pay in full, pay partially, use installments, wait,
-or don't proceed** — personalised to each user's balance, recurring
+or don't proceed** personalised to each user's balance, recurring
 commitments, priorities, and stated preferences.
 
 ## How it works
@@ -41,8 +41,8 @@ src/main.py  ─────────►  output.csv
 
 ### Currency
 
-`src/fx.py` builds a USD-hub conversion table from `exchange_rates.csv`
-(USD↔EUR, USD↔IDR, USD↔INR, EUR↔ZAR) with nearest-available-date lookup, so
+`src/fx.py` builds a USD hub conversion table from `exchange_rates.csv`
+(USD↔EUR, USD↔IDR, USD↔INR, EUR↔ZAR) with nearest available date lookup, so
 any event/message amount is converted to the user's `home_currency` at the
 correct date before being added to the forecast.
 
